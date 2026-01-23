@@ -1,0 +1,75 @@
+/* বডি এবং ফুটার পজিশন সেটিংস */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f5;
+    line-height: 1.8;
+    color: #333;
+}
+
+.content-wrapper {
+    flex: 1; /* ফুটারকে নিচে ঠেলে দিবে */
+}
+
+/* হেডিং স্টাইল */
+.heading {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.heading1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004085;
+    margin-top: 30px;
+}
+
+/* কনটেন্ট বক্স স্টাইল */
+.content-box {
+    max-width: 850px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.content-box h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.content-box h3 {
+    color: #007bff;
+    margin-top: 25px;
+}
+
+.content-box p {
+    margin-bottom: 15px;
+    text-align: justify; /* লেখাগুলো দুই পাশে সমান দেখাবে */
+}
+
+/* ফুটার স্টাইল */
+.footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 25px 0;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    letter-spacing: 0.5px;
+}
